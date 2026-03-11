@@ -9,12 +9,12 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                
-                git branch: 'main', url: 'https://github.com/SubhojitGuin/JenkinsWebAppPipeline'
-            }
-        }
+//        stage('Checkout') {
+//            steps {
+//                
+//                git branch: 'main', url: 'https://github.com/SubhojitGuin/JenkinsWebAppPipeline'
+//            }
+//        }
 
         stage('Build') {
             steps {
